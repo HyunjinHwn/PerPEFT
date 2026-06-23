@@ -25,3 +25,59 @@ For each domain, the table reports:
 - Number of items
 - Average purchase-history sequence length
 - Interaction density
+
+---
+
+## Table 2: Multimodal Recommendation Performance (RQ1)
+
+**Caption**
+
+(RQ1) Multimodal recommendation performance. All metrics are multiplied by 100 for better readability. Numbers in parentheses indicate standard deviation. H@K and N@K denote Hit-Ratio@K and NDCG@K, respectively. Best results are highlighted with a green box. Notably, PerPEFT outperforms the baseline methods in 44 out of 48 settings.
+
+**Contents**
+
+This table evaluates recommendation performance across four product domains:
+
+- Sports & Outdoors
+- Toys & Games
+- Beauty & Personal Care
+- Arts, Crafts & Sewing
+
+Metrics:
+
+- H@20
+- H@30
+- N@20
+- N@30
+
+Compared methods include:
+
+### Non-PEFT Baselines
+- w/o MM
+- Frozen MM
+
+### LoRA-based Methods
+- Global PEFT
+- User-level 1
+- User-level 2
+- Group-level 1
+- Group-level 2
+- PerPEFT (Ours)
+
+### (IA)³-based Methods
+- Global PEFT
+- User-level 1
+- User-level 2
+- Group-level 1
+- Group-level 2
+- PerPEFT (Ours)
+
+### IISAN-based Methods
+- Global PEFT
+- User-level 1
+- User-level 2
+- Group-level 1
+- Group-level 2
+- PerPEFT (Ours)
+
+The results demonstrate that PerPEFT consistently achieves superior recommendation performance across most evaluation settings.
