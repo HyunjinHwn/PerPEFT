@@ -86,3 +86,53 @@ Benefits:
 - Stronger discrimination among similar items.
 - Better alignment with group-specific preferences.
 - Improved personalization capability.
+---
+
+## Figure 4: Qualitative Recommendation Examples
+
+**Caption**
+
+Qualitative recommendation examples demonstrating how PerPEFT captures fine-grained user interests better than Global PEFT and mismatched group-specific PEFT modules.
+
+**Contents**
+
+The figure presents recommendation case studies from multiple domains.
+
+### Sports & Outdoors
+
+User purchase history:
+
+- Camping backpacks
+- Camping food products
+
+Comparison:
+
+- Camping-group PEFT
+- Global PEFT
+- Golf-group PEFT
+
+Observation:
+
+- Camping-group PEFT recommends camping food products that closely match the user's recent interests.
+- Global PEFT and golf-group PEFT recommend only broadly related outdoor items.
+
+### Toys & Games
+
+User purchase history:
+
+- LEGO vehicle-themed products
+
+Comparison:
+
+- LEGO-group PEFT
+- Global PEFT
+- Game-group PEFT
+
+Observation:
+
+- LEGO-group PEFT accurately recommends vehicle-related LEGO products.
+- Alternative PEFT modules recommend more generic toys or unrelated game-themed items.
+
+The examples demonstrate the practical effect of group-aware personalization.
+
+---
