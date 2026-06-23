@@ -166,3 +166,23 @@ Observation:
 
 The figure suggests that specialized PEFT modules learn different semantic priorities depending on group interests.
 
+---
+
+## Figure 6: Interpretable Personalization Mechanism
+
+**Caption**
+
+Visualization showing that PerPEFT changes multimodal attention patterns according to user-group preferences, enabling interpretable and personalized recommendation behavior.
+
+**Contents**
+
+This figure summarizes the core interpretability finding of the paper.
+
+Key observations:
+
+- Different user groups attend to different aspects of the same item.
+- Group-specialized PEFT modules modify CLIP's attention distribution.
+- The resulting multimodal representations become aligned with group-specific interests.
+- These personalized representations ultimately improve recommendation quality.
+
+Together with Figures 1 and 5, this figure provides evidence that PerPEFT achieves its intended personalization objective rather than merely improving recommendation metrics.
