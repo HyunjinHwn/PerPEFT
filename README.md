@@ -88,6 +88,7 @@ One can refer to ```perpeft_hyperparameter.pickle``` for the optimal hyperparame
 - If you have any questions regarding our paper and/or code, feel free to reach me out!
 - You can either (1) contact me via ```kswoo97@kaist.ac.kr``` or (2) leave questions in the ```GitHub issue```.
 
+----
 
 ### Acknowledgements
 This work was partly supported by Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No. RS2022-II220871, Development of AI Autonomy and Knowledge Enhancement for AI Agent Collaboration 40%)
