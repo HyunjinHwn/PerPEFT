@@ -86,6 +86,7 @@ Benefits:
 - Stronger discrimination among similar items.
 - Better alignment with group-specific preferences.
 - Improved personalization capability.
+
 ---
 
 ## Figure 4: Qualitative Recommendation Examples
