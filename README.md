@@ -81,6 +81,12 @@ Description for each hyperparameter is as follows:
 
 One can refer to ```perpeft_hyperparameter.pickle``` for the optimal hyperparameter configuration of each model on each dataset.
 
+## Figures and Tables
+
+Additional documentation is provided for the paper figures and tables.
+
+- `figures/README.md`: describes each figure caption and summarizes the content of the corresponding figure.
+- `tables/README.md`: describes each table caption and summarizes the content of the corresponding table.
 ----
 
 ### Questions
@@ -92,9 +98,3 @@ One can refer to ```perpeft_hyperparameter.pickle``` for the optimal hyperparame
 
 ### Acknowledgements
 This work was partly supported by Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No. RS2022-II220871, Development of AI Autonomy and Knowledge Enhancement for AI Agent Collaboration 40%)
-## Figures and Tables
-
-Additional documentation is provided for the paper figures and tables.
-
-- `figures/README.md`: describes each figure caption and summarizes the content of the corresponding figure.
-- `tables/README.md`: describes each table caption and summarizes the content of the corresponding table.
