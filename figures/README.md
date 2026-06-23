@@ -137,6 +137,7 @@ Observation:
 The examples demonstrate the practical effect of group-aware personalization.
 
 ---
+
 ## Figure 5: Attention Shift Across User Groups
 
 **Caption**
