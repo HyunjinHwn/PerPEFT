@@ -58,6 +58,7 @@ This figure illustrates the overall architecture of PerPEFT.
 - SASRec generates personalized recommendations from the resulting item sequences.
 
 The figure highlights the key idea of PerPEFT: **group-aware multimodal personalization**.
+
 ---
 
 ## Figure 3: Group-Specific Negative Sampling
