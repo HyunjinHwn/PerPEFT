@@ -81,6 +81,8 @@ Description for each hyperparameter is as follows:
 
 One can refer to ```perpeft_hyperparameter.pickle``` for the optimal hyperparameter configuration of each model on each dataset.
 
+----
+
 ## Figures and Tables
 
 Additional documentation is provided for the paper figures and tables.
