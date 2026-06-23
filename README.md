@@ -87,6 +87,7 @@ Additional documentation is provided for the paper figures and tables.
 
 - `figures/README.md`: describes each figure caption and summarizes the content of the corresponding figure.
 - `tables/README.md`: describes each table caption and summarizes the content of the corresponding table.
+
 ----
 
 ### Questions
