@@ -137,3 +137,31 @@ Observation:
 The examples demonstrate the practical effect of group-aware personalization.
 
 ---
+## Figure 5: Attention Shift Across User Groups
+
+**Caption**
+
+Visualization of how different group-specialized PEFT modules guide CLIP to attend to different semantic concepts within the same item title.
+
+**Contents**
+
+This figure provides an interpretability analysis of PerPEFT.
+
+### Example
+
+Item title:
+
+> LEGO Overwatch Wrecking Ball Building Kit
+
+Comparison:
+
+- LEGO-group-specialized PEFT
+- Game-group-specialized PEFT
+
+Observation:
+
+- LEGO-group PEFT focuses on both **"LEGO"** and **"Overwatch"**.
+- Game-group PEFT strongly concentrates attention on **"Overwatch"**.
+
+The figure suggests that specialized PEFT modules learn different semantic priorities depending on group interests.
+
