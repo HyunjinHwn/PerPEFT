@@ -31,6 +31,7 @@ Observation:
 - The camping-specialized PEFT focuses more on **"Travel"** and **"Bag"**.
 
 This demonstrates that PerPEFT can adapt multimodal representations according to different user-group interests.
+
 ---
 
 ## Figure 2: Comparison Between Global PEFT and PerPEFT
