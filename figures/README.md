@@ -58,3 +58,30 @@ This figure illustrates the overall architecture of PerPEFT.
 - SASRec generates personalized recommendations from the resulting item sequences.
 
 The figure highlights the key idea of PerPEFT: **group-aware multimodal personalization**.
+---
+
+## Figure 3: Group-Specific Negative Sampling
+
+**Caption**
+
+An example case of our training technique for PerPEFT. When training for Group A, we draw negative samples only from items appearing in Group A users' purchase histories, instead of the full item set. The same holds for Group B.
+
+**Contents**
+
+This figure explains the group-specific negative sampling strategy.
+
+### Conventional Negative Sampling
+
+- Negative items are sampled from the entire item universe.
+- Many negatives may be irrelevant to the target group's interests.
+
+### PerPEFT Negative Sampling
+
+- Negative candidates are restricted to items observed within the same user group.
+- Training focuses on more challenging and semantically relevant negatives.
+
+Benefits:
+
+- Stronger discrimination among similar items.
+- Better alignment with group-specific preferences.
+- Improved personalization capability.
