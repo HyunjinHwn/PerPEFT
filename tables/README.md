@@ -82,3 +82,37 @@ Compared methods include:
 
 The results demonstrate that PerPEFT consistently achieves superior recommendation performance across most evaluation settings.
 
+---
+
+## Table 3: Ablation Study (RQ5)
+
+**Caption**
+
+(RQ5) Ablation study. All metrics are multiplied by 100 for better readability. Numbers in parentheses indicate standard deviation. H@K and N@K denote Hit-Ratio@K and NDCG@K, respectively. Best results are highlighted with a green box. Notably, PerPEFT outperforms its variants in 15 out of 16 settings.
+
+**Contents**
+
+This table analyzes the contribution of each component in PerPEFT through several ablation variants:
+
+- w/o textual modality
+- w/o visual modality
+- w/o group-specific negatives
+- Large Global PEFT
+- Random grouping
+- PerPEFT (Ours)
+
+Evaluation is conducted on the same four domains:
+
+- Sports & Outdoors
+- Toys & Games
+- Beauty & Personal Care
+- Arts, Crafts & Sewing
+
+Metrics:
+
+- H@20
+- H@30
+- N@20
+- N@30
+
+The results show that removing any major component generally degrades performance, indicating that each design choice contributes to the effectiveness of PerPEFT.
